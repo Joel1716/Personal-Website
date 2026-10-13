@@ -36,7 +36,7 @@ const obs = new IntersectionObserver(
     root: null,
     threshold: 0,
     rootMargin: "-80px",
-  }
+  },
 );
 obs.observe(sectionHeroEl);
 
@@ -84,23 +84,24 @@ function profileCreation() {
     });
     profileHTML += ` 
       <div class="each-project">
-         <div class="whatsapp-image-container">
-              <img class="whatsapp-image" src="${profile.img}" alt="" />
-          </div>
+  
           <div class="project-content">
-              <h2>${profile.title}</h2>
+              <h2 class="project-title">${profile.title}</h2>
               <div class="project-type">${profile.type}</div>
               <p class="project-message">${profile.message}</p>
             <div class="view-tech">
                 <h2>Technologies Used</h2>
               <div class="projects-tech">${languageHTML}</div>
-              <div class="view-project">
+            ${
+              profile.link &&
+              `  <div class="view-project">
                   <a
                     href="${profile.link}"
                     target="_blank"
                     >View</a
                   >
-              </div>
+              </div>`
+            }
             </div>
           </div>;
       </div>`;

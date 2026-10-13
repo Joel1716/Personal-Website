@@ -9,22 +9,40 @@ export const tech = [
     img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
   },
   {
-    img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jasmine/jasmine-original-wordmark.svg",
+    img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/supabase/supabase-original.svg",
   },
   {
     img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg",
+  },
+  {
+    img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
+  },
+  {
+    img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg",
+  },
+  {
+    img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
   },
 ];
 
 export const profiles = [
   {
-    img: "/images/Project-1.PNG",
-    title: "Whatsapp Project",
-    type: "Mobile",
+    img: "/images/haple-pic.JPG",
+    title: "Haple",
+    type: "Web",
     message:
-      "WhatsApp Replica is an interactive messaging simulation that reproduces the WhatsApp mobile experience. Users can select different profiles, exchange messages with accurate timestamps, and navigate between conversations while maintaining message history. The application preserves conversation states across sessions, allowing users to return to any previous chat and find their message history intact. This project demonstrates my proficiency in frontend development, state management that mirror popular applications.",
-    languages: ["HTML", "CSS", "Javascript"],
-    link: "https://whatsapp-page-nine.vercel.app/",
+      "Haple was built after noticing how hard it is for student sellers on campus to actually get seen, most end up relying on a few friends or word-of-mouth, even when they have something genuinely worth buying. Haple gives sellers a profile, lets buyers browse by category for exactly what they need, and connects them straight to a seller's WhatsApp with one click. ",
+    languages: ["React", "Tailwind"],
+    link: "https://haple.shop/",
+  },
+  {
+    img: "/images/jia-pic.JPG",
+    title: "Jia-Ride",
+    type: "Web",
+    message:
+      "JiaRide came from a simple observation, booking school transport is usually disorganized, and hard to track. I co-built JiaRide to give parents and students a structured way to find and book transport services, with a manual payment system that requires a receipt upload for verification.",
+    languages: ["React", "Tailwind"],
+    link: "https://jia-ride.vercel.app/",
   },
   {
     img: "/images/countries.PNG",
@@ -36,15 +54,6 @@ export const profiles = [
     link: "https://country-generation-with-api.vercel.app/",
   },
   {
-    img: "/images/Project-3.PNG",
-    title: "CGPA-GPA Calculator",
-    type: "Web",
-    message:
-      "As a Student, determining the range of your score is something that has been wished upon to remove tension. Well, this is where my app comes in, it allows you to check either your CGPA(Input each semester then click enter, when you are done, calculate!!) or GPA(Inputting the values and calculate) with ease.",
-    languages: ["HTML", "CSS", "Javascript"],
-    link: "https://cgpa-gpa-calculator.vercel.app/",
-  },
-  {
     img: "/images/project-2.PNG",
     title: "Fylo Landing Page",
     type: "Web",
@@ -54,21 +63,11 @@ export const profiles = [
     link: "https://fylo-landing-page-three-zeta.vercel.app/",
   },
   {
-    img: "/images/project-4.PNG",
-    title: "Mortgage Calculator",
+    img: "/images/dashboard.PNG",
+    title: "HostelPal",
     type: "Web",
     message:
-      "Always wanted a faster and easier way to calculate your mortgage? Well, we have your answer. Introducing our mortgage calculator which allows you to calculate your mortage seamlessly with broken down monthly payments and the total payments over a year without you breaking a sweat ‼",
-    languages: ["HTML", "CSS", "Javascript"],
-    link: "https://mortgage-calculator-lac.vercel.app/",
-  },
-  {
-    img: "/images/project-5.PNG",
-    title: "Base-Apparel",
-    type: "Web",
-    message:
-      "It is a responsive component that provides real-time validation for email inputs. It displays error messages when users enter incorrectly formatted email addresses, enhancing user experience through immediate feedback. This solution demonstrates my attention to detail in form validation.",
-    languages: ["HTML", "CSS", "Javascript"],
-    link: "https://joel1716.github.io/Base-apparel/",
+      "Proxy check-ins are a real problem in university hostels, students checking in on behalf of absent roommates, which makes attendance records unreliable. I built HostelPal to solve this with a multi-layered verification system: matric number lookup, private IP subnet checking to confirm you're actually on-site, and facial recognition to make sure the right person is checking in.",
+    languages: ["React Native", "React", "Tailwind"],
   },
 ];
